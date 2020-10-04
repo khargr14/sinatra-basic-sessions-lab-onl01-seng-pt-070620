@@ -21,3 +21,4 @@ class App < Sinatra::Base
         @session = session
         @session[:item] = params[:item]
 end
+end
